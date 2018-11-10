@@ -1,1 +1,1 @@
-python /opt/Kintaro/kintaro.py &
+ python /storage/scripts/kintaro.py &
