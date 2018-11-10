@@ -1,15 +1,17 @@
-# Kintaro-Recalbox
+# Kintaro-Lakka
 
-Version 1.5
+Version 1
 
-Author: Michael Kirsch
+Thanks to Michael Kirsch & Marcelo Novaes
 
-This is the official Kintaro script for Recalbox.
+I just frankensteined their two solutions together and it works great!
+
+This is the Kintaro script for Lakka.
 
 To install this script you do the following steps:
 
 1.Connect with SSH
-2.Remount partition on read-write with the command: ```mount -o remount,rw /```
-3.Then copy the ```S100kintaro.sh``` into ```/etc/init.d```
-4.Copy the ```kintaro``` folder into ```/opt/``` 
-5.reboot
+3.Then copy the ```.config/autostart.sh``` into ```/storage/.config/```
+4.Copy the ```lib``` folder into ```/storage/```
+5.Copy the ```scripts``` folder into ```/storage/```
+6.reboot

@@ -2,6 +2,8 @@
 #Copyright 2017 Michael Kirsch
 
 try:
+    import sys
+    sys.path.append('/storage/lib')
     import time
     import os
     import RPi.GPIO as GPIO
